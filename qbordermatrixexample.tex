@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{qbordermatrix}
+\begin{document}
+\hrule y\vrule$\bordermatrix[\{\}]{%
+0 &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+a & x_1 & y_2 & z_1 & t_1 \cr
+b & x_3 & y_4 & z_2 & t_2 \cr
+c & x_5 & y_6 & z_3 & t_3 \cr
+d &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+}$\vrule bordermatrix\hrule
+
+\hrule y\vrule$\bordermatrix*[\{\}]{%
+0 &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+a & x_1 & y_2 & z_1 & t_1 \cr
+b & x_3 & y_4 & z_2 & t_2 \cr
+c & x_5 & y_6 & z_3 & t_3 \cr
+d &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+}$\vrule bordermatrix*\hrule
+
+\hrule y\vrule$\qbordermatrix[\{\}]{nesw}{%
+0 &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+a & x_1 & y_2 & z_1 & t_1 \cr
+b & x_3 & y_4 & z_2 & t_2 \cr
+c & x_5 & y_6 & z_3 & t_3 \cr
+d &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+}$\vrule qbordermatrix-nesw\hrule
+
+\hrule y\vrule$\qbordermatrix[\{\}]{ns}{%
+0 &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+a & x_1 & y_2 & z_1 & t_1 \cr
+b & x_3 & y_4 & z_2 & t_2 \cr
+c & x_5 & y_6 & z_3 & t_3 \cr
+d &   1 &2^{2^2}& 3 & \displaystyle\frac{4}{2} \cr
+}$\vrule qbordermatrix-ns\hrule
+
+\end{document}
